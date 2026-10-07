@@ -1,0 +1,80 @@
+# ============================================================
+# EnergyMol-MLIP
+# Git ignore file
+# ============================================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ============================================================
+# Quantum chemistry / DFT scratch files
+# ============================================================
+
+*.chk
+*.rwf
+*.int
+*.d2e
+*.d2e.*
+*.gbw
+*.molden
+*.cube
+
+# DFT log/output files
+*.log
+
+# ============================================================
+# Large ML model files
+# ============================================================
+
+*.pt
+*.pth
+*.ckpt
+*.model
+
+# ============================================================
+# Local datasets
+# ============================================================
+
+data/raw/
+data/processed/
+
+# Keep folder structure with README files
+!data/processed/README.md
+
+# ============================================================
+# Temporary / intermediate results
+# ============================================================
+
+results/tmp/
+
+# ============================================================
+# Local configuration / secrets
+# ============================================================
+
+.env
+*.secret
