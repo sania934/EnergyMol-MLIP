@@ -1,0 +1,17 @@
+item,exists,path
+DFT dataset,True,/content/drive/MyDrive/MLIP project/data/processed/dft_dataset.extxyz
+MACE dataset,True,/content/drive/MyDrive/MLIP project/data/processed/dft_dataset_mace.extxyz
+DFT results,True,/content/drive/MyDrive/MLIP project/data/processed/dft_results_raw.csv
+Dataset manifest,True,/content/drive/MyDrive/MLIP project/data/processed/dft_dataset_manifest.csv
+Molecule split,True,/content/drive/MyDrive/MLIP project/data/processed/molecule_split.csv
+MACE train,True,/content/drive/MyDrive/MLIP project/data/processed/mace_train.extxyz
+MACE validation,True,/content/drive/MyDrive/MLIP project/data/processed/mace_validation.extxyz
+MACE transfer,True,/content/drive/MyDrive/MLIP project/data/processed/mace_test_transfer.extxyz
+Baseline final table,True,/content/drive/MyDrive/MLIP project/results/metrics/mace_final_results_table.csv
+Baseline predictions,True,/content/drive/MyDrive/MLIP project/results/metrics/mace_baseline_predictions.csv
+Baseline consolidated metrics,True,/content/drive/MyDrive/MLIP project/results/metrics/mace_baseline_consolidated_metrics.csv
+Transfer summary,True,/content/drive/MyDrive/MLIP project/results/mace_learning_curves/metrics/mace_learning_curve_transfer_summary.csv
+Learning curve validation,True,/content/drive/MyDrive/MLIP project/results/mace_learning_curves/metrics/learning_curve_validation_metrics.csv
+Learning curve results,True,/content/drive/MyDrive/MLIP project/results/mace_learning_curves/metrics/mace_learning_curve_results.csv
+Transfer by molecule,True,/content/drive/MyDrive/MLIP project/results/mace_learning_curves/metrics/mace_learning_curve_transfer_by_molecule.csv
+Learning curve config,True,/content/drive/MyDrive/MLIP project/results/mace_learning_curves/learning_curve_config.json
